@@ -1,0 +1,93 @@
+body { 
+  margin: 0;
+  padding: 0;
+  font-family: "didot" sans-serif;
+}
+
+div { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "didot" sans-serif;
+    font-weight: bold;
+    width: 100%;
+    height: 100vh;
+}
+
+h1 { 
+    font-size: 50px;
+    color: rgb(252, 252, 252);
+    background-color: rgba(236, 220, 152, 0.726);
+    padding: 8px 24px;
+    text-align: center;
+    border-radius: 16px;
+    width: 30%;
+}
+
+h2 {
+    font-size: 50px;
+    color: rgb(252, 252, 252);
+    background-color: rgba(173, 217, 241, 0.425);
+    padding: 8px 24px;
+    border-radius: 16px;
+}
+
+h3 {
+    font-size: 35px;
+    color: rgb(252, 252, 252);
+    text-align: center;
+    background-color: rgba(175, 94, 56, 0.616);
+    padding: 8px 24px;
+    border-radius: 16px;
+    width: 20%;
+}
+
+h4 {
+    font-size: 35px;
+    color: rgb(252, 252, 252);
+    text-align: center;
+    background-color: rgba(11, 10, 75, 0.404);
+    padding: 8px 24px;
+    border-radius: 16px;
+    width: 50%;
+}
+
+h5 {
+    font-size: 60px;
+    color: rgb(252, 252, 252);
+    text-align: center;
+    background-color: rgba(11, 10, 75, 0.404);
+    padding: 8px 24px;
+    border-radius: 16px;
+}
+
+.day { 
+    background-image: url(./assets/daytime.png);
+    background-size: cover;
+}
+
+.day-transition {
+    background: linear-gradient(0deg, rgba(254,183,90,1) 5%, rgba(176,248,248,1) 96%);
+    height: 400px;
+    padding-top: 100px;
+}
+
+.sunset { 
+    background-image: linear-gradient( rgb(254,183,90,1), rgba(228, 239, 224, 0.1)), url(./assets/sunset.png);
+    background-size: cover; 
+}
+
+.lilac {
+    background-color: rgb(226, 218, 255);
+}
+
+.nightsky {
+    background-image: url(./assets/nightsky.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.night-transition{
+    background: rgb(18,10,121);
+    background: linear-gradient(0deg, rgba(18,10,121,0.7189250700280112) 26%, rgba(18,10,121,1) 91%);
+}
